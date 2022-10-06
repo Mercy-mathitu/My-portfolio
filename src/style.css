@@ -1,0 +1,12 @@
+/*font-family: 'Playfair Display',
+serif;
+font-family: 'STIX Two Text',
+serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=STIX+Two+Text&display=swap');
+
+:root {
+    --primary-color: #DFF3E4;
+    --secondary-color: #2E1760;
+    --accent-color: #7180B9;
+
+}
