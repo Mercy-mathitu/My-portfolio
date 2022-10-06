@@ -10,3 +10,54 @@ serif;*/
     --accent-color: #7180B9;
 
 }
+body {
+    font-family: 'STIX Two Text',
+            serif;
+    background-color: var(--primary-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-family: 'Playfair Display',
+            serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 96px;
+}
+
+.hero {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 160px 0;
+}
+h1 {
+
+ }
+.hero p {
+    font-family: 'Playfair Display',
+            serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero h2 {
+    font-family: 'STIX Two Text',
+            serif;
+    font-weight: normal;
+    line-height: 2;
+    font-size: 24px;
+}
+
+.btn-branding {
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+    color: var(--primary-color);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+    border: 1px, solid, #2E1760;
+
+}
