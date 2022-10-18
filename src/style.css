@@ -129,9 +129,38 @@ nav a {
     transition: all 150ms ease-in-out;
 }
 
-nav a:hover,
+.nav-link a:hover {
+        color: var(--secondary-color);
+    }
+    
 nav li.active a {
     color: var(--secondary-color);
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.socials a {
+    color: #fff;
+    font-size: 30px;
+    margin: 0 10px;
+
+}
+
+.socials a:hover {
+    color: aqua;
+}
+
+footer {
+    background-color: #2E1760;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 @media (max-width: 900px) {
