@@ -29,7 +29,7 @@ h1 {
 .hero {
     text-align: center;
     background-color: var(--primary-color);
-    padding: 160px 20px;
+    padding: 100px 20px;
 }
 h1 {
 
@@ -107,6 +107,11 @@ h1 {
     max-width: 150px;
 }
 
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
 nav {
     padding: 20px 0;
 }
@@ -129,12 +134,13 @@ nav a {
     transition: all 150ms ease-in-out;
 }
 
+
 .nav-link a:hover {
-        color: var(--secondary-color);
-    }
-    
+    color: var(--accent-color);
+}
+
 nav li.active a {
-    color: var(--secondary-color);
+    color: #2E1760;
 }
 
 .socials {
@@ -153,7 +159,7 @@ nav li.active a {
 }
 
 .socials a:hover {
-    color: aqua;
+    color: var(--accent-color);
 }
 
 footer {
