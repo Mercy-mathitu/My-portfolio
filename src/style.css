@@ -199,6 +199,11 @@ footer {
     padding: 10px;
 }
 
+.credit {
+    text-align: center;
+    font-family: monospace;
+}
+
 @media (max-width: 900px) {
     .nav-item {
         font-size: 18px;
