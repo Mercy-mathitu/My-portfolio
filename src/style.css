@@ -116,12 +116,13 @@ p {
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+    margin-right: 20%;
     border: 1px, solid, #2E1760;
-
 }
 
 .btn-branding:hover {
     border: 1px, solid, #2E1760;
+    color: var(--accent-color)
 }
 
 .navbar-brand {
@@ -161,6 +162,7 @@ nav li.active a {
     color: black;
     font-size: 35px;
 }
+
 
 .btn-custom {
     background-color: var(--primary-color);
