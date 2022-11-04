@@ -238,4 +238,10 @@ footer {
     nav li {
         font-size: 14px;
     }
+
+        .btn-branding {
+            border-radius: 4px;
+            padding: 10px 20px;
+            margin-right: 10%;
+        }
 }
