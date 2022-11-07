@@ -149,7 +149,7 @@ p {
 }
 
 .nav-links li a {
-            transitions: all 0.3s ease 0s;
+            transition: 0.3s ease;
             color: #eaffe3;
             padding: 5px;
         }
