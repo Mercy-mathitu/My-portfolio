@@ -76,6 +76,7 @@ p {
 .content-container {
     background-color: var(--primary-color);
         padding: 160px 20px;
+        text-align: center;
 }
 
 .content {
@@ -161,6 +162,7 @@ nav li.active a {
 .projects h2 {
     color: black;
     font-size: 35px;
+     text-align: center;
 }
 
 
@@ -213,6 +215,9 @@ footer {
         max-width: 100px;
         margin-right: 25px;
         padding-right: 15px;
+}
+.container-bg {
+    margin: 0;
 }
     .nav-item {
         font-size: 18px;
